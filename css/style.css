@@ -64,4 +64,15 @@ body {
   text-align: center;
   color: white;
   font-size: 1.2rem;
+}
+.card__data {
+  padding: 1rem;
+}
+.card__data__price {
+  padding: 0.5rem;
+  text-align: center;
+}
+.card__data__priceInput {
+  width: 100%;
+  padding: 0.5rem;
 }/*# sourceMappingURL=style.css.map */
