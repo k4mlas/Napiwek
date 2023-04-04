@@ -69,6 +69,7 @@ body {
 	}
 	&__data {
 		padding: 1rem;
+		font-size: 1rem;
 		&__price {
 			padding: 0.5rem;
 			text-align: center;
@@ -76,10 +77,25 @@ body {
 		&__priceInput {
 			width: 100%;
 			padding: 0.5rem;
+			font-size: 1rem;
 		}
 		&__person {
 			padding: 0.5rem;
 			text-align: center;
+		}
+		&__personInput {
+			width: 100%;
+			padding: 0.5rem;
+			font-size: 1rem;
+		}
+		&__tip {
+			padding: 0.5rem;
+			text-align: center;
+		}
+		&__tipInput {
+			width: 100%;
+			padding: 0.5rem;
+			font-size: 1rem;
 		}
 	}
 }
