@@ -28,12 +28,12 @@
 
         </div>
         <div class="card__data">
-            <h4 class="card__data__price">Podaj kwotę z rachunku</h4>
-            <input class="card__data__priceInput" type="text">
-            <h4 class="card__data__person">Podaj liczbę osób</h4>
-            <input class="card__data__personInput" type="number">
-            <h4 class="card__data__tip">Wybierz wysokość napiwku</h4>
-            <select class="card__data__tipInput"  name="" id="">
+            <h4 class="card__data__name">Podaj kwotę z rachunku</h4>
+            <input class="card__data__input card__data__input--priceInput" type="text">
+            <h4 class="card__data__name">Podaj liczbę osób</h4>
+            <input class="card__data__input card__data__input--personInput" type="number">
+            <h4 class="card__data__name">Wybierz wysokość napiwku</h4>
+            <select class="card__data__input card__data__input--tipInput"  name="" id="">
                 <option value="5">5%</option>
                 <option value="10">10%</option>
                 <option value="15">15%</option>
@@ -41,6 +41,8 @@
                 <option value="25">25%</option>
                 <option value="30">30%</option>
             </select>
+            <button class="card__data__btn">oblicz</button>
+            <p class="card__data__error">Prszę uzupeic pola</p>
 
 
         </div>

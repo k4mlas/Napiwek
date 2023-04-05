@@ -68,35 +68,50 @@ body {
 		}
 	}
 	&__data {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		padding: 1rem;
 		font-size: 1rem;
-		&__price {
+
+		&__name {
 			padding: 0.5rem;
 			text-align: center;
+			margin: 1rem 0 1rem 0;
+			text-transform: uppercase;
 		}
-		&__priceInput {
+
+		&__input {
 			width: 100%;
 			padding: 0.5rem;
 			font-size: 1rem;
+			border-radius: 10px;
+			border: 1px solid black;
 		}
-		&__person {
-			padding: 0.5rem;
+
+		&__btn {
+			width: 200px;
+			padding: 1rem;
+			margin-top: 1rem;
+			font-size: 1.4rem;
 			text-align: center;
+			text-transform: uppercase;
+			border: none;
+			border-radius: 10px;
+			background: orange;
+			transition: background 0.5s, color 0.5s;
+			cursor: pointer;
+			&:hover {
+				background: black;
+				color: white;
+			}
 		}
-		&__personInput {
-			width: 100%;
-			padding: 0.5rem;
-			font-size: 1rem;
-		}
-		&__tip {
-			padding: 0.5rem;
+		&__error {
+			padding: 1rem;
+			margin-top: 1rem;
 			text-align: center;
-		}
-		&__tipInput {
-			width: 100%;
-			padding: 0.5rem;
-			font-size: 1rem;
+			text-transform: uppercase;
 		}
 	}
-	
 }
