@@ -105,12 +105,14 @@ body {
   color: white;
 }
 .card__data__error {
+  display: none;
   padding: 1rem;
   margin-top: 1rem;
   text-align: center;
   text-transform: uppercase;
 }
 .card__data__result {
+  display: none;
   padding: 1rem;
   margin-top: 1rem;
   text-align: center;
