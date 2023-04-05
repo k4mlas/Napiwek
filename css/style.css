@@ -78,6 +78,7 @@ body {
   text-align: center;
   margin: 1rem 0 1rem 0;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .card__data__input {
   width: 100%;
@@ -87,7 +88,7 @@ body {
   border: 1px solid black;
 }
 .card__data__btn {
-  width: 200px;
+  width: 250px;
   padding: 1rem;
   margin-top: 1rem;
   font-size: 1.4rem;
@@ -108,4 +109,14 @@ body {
   margin-top: 1rem;
   text-align: center;
   text-transform: uppercase;
+}
+.card__data__result {
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card__data__result__cost {
+  font-weight: bold;
+  color: red;
 }/*# sourceMappingURL=style.css.map */

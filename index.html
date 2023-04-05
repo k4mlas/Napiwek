@@ -24,27 +24,25 @@
             <div class="card__header__shadow"></div>
             <h1 class="card__header__title">DajNapiwka</h1>
             <p class="card__header__text">Podziel się rachunkiem ze znajomym :)</p>
-
-
         </div>
         <div class="card__data">
-            <h4 class="card__data__name">Podaj kwotę z rachunku</h4>
-            <input class="card__data__input card__data__input--priceInput" type="text">
-            <h4 class="card__data__name">Podaj liczbę osób</h4>
-            <input class="card__data__input card__data__input--personInput" type="number">
-            <h4 class="card__data__name">Wybierz wysokość napiwku</h4>
-            <select class="card__data__input card__data__input--tipInput"  name="" id="">
-                <option value="5">5%</option>
-                <option value="10">10%</option>
-                <option value="15">15%</option>
-                <option value="20">20%</option>
-                <option value="25">25%</option>
-                <option value="30">30%</option>
+            <label for="price" class="card__data__name">Podaj kwotę z rachunku</label>
+            <input class="card__data__input" id="price" type="text">
+            <label for="person" class="card__data__name">Podaj liczbę osób</label>
+            <input class="card__data__input" id="person" type="number">
+            <label for="tip" class="card__data__name">Wybierz wysokość napiwku</label>
+            <select class="card__data__input"  name="" id="tip">
+                <option value="0" disabled selected>wybierz napiwek</option>
+                <option value="0.05">5%</option>
+                <option value="0.1">10%</option>
+                <option value="0.15">15%</option>
+                <option value="0.2">20%</option>
+                <option value="0.25">25%</option>
+                <option value="0.3">30%</option>
             </select>
             <button class="card__data__btn">oblicz</button>
             <p class="card__data__error">Prszę uzupeic pola</p>
-
-
+            <p class="card__data__result">Powinniście złożyć się po <span class="card__data__result__cost">22</span> złotych :)</p>
         </div>
     </div>
 
