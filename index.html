@@ -8,7 +8,7 @@
     <meta name="author" content="Kamil Łaskarzewski">
     <meta name="keywords" content="napiwek, opłata, rachunek, reustauracja">
     <meta name="description" content="Podziel się rachunkiem ze znajomymi">
-    <title>Wyszukiwarka</title>
+    <title>DajNapiwka</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;700&display=swap"
@@ -27,7 +27,7 @@
         </div>
         <div class="card__data">
             <label for="price" class="card__data__name">Podaj kwotę z rachunku</label>
-            <input class="card__data__input" id="price" type="text">
+            <input class="card__data__input" id="price" type="number">
             <label for="person" class="card__data__name">Podaj liczbę osób</label>
             <input class="card__data__input" id="person" type="number">
             <label for="tip" class="card__data__name">Wybierz wysokość napiwku</label>
@@ -41,8 +41,8 @@
                 <option value="0.3">30%</option>
             </select>
             <button class="card__data__btn">oblicz</button>
-            <p class="card__data__error">Prszę uzupeic pola</p>
-            <p class="card__data__result">Powinniście złożyć się po <span class="card__data__result__cost">22</span> złotych :)</p>
+            <p class="card__data__error">Proszę uzupełnić wszystkie pola</p>
+            <p class="card__data__result">Powinniście złożyć się po <span class="card__data__result__cost"></span> złotych :)</p>
         </div>
     </div>
 
