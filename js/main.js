@@ -22,6 +22,7 @@ const calc = () => {
 	const addThree = parseFloat(tip.value);
 	const effect = (addOne + addOne * addThree) / addTwo;
 	result.style.display = 'block';
+	resultSpan.textContent = effect.toFixed(2);
 };
 
 btn.addEventListener('click', check);
