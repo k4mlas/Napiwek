@@ -7,12 +7,21 @@ const result = document.querySelector('.card__data__result');
 const resultSpan = document.querySelector('.card__data__result__cost');
 
 const check = () => {
-	if (price.value !== '' && persons.value !== '' && tip.value !== '') {
-		console.log('Pola są uzupełnione');
+	if (price.value !== '' && persons.value !== '' && tip.value !== '0') {
+		error.style.display = 'none';
+		calc();
 	} else {
-		console.log('Wszystkie pola są puste');
 		error.style.display = 'block';
+		result.style.display = 'none';
 	}
+};
+
+const calc = () => {
+	const addOne = parseFloat(price.value);
+	const addTwo = parseFloat(persons.value);
+	const addThree = parseFloat(tip.value);
+	const effect = (addOne + addOne * addThree) / addTwo;
+	result.style.display = 'block';
 };
 
 btn.addEventListener('click', check);
